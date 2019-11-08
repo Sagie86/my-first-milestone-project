@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+
+/*-----------------------------------------site-nav----*/
+
+.navbar {
+    background-color: #c0c0c0;
+}
+
+
+
+/* change the color of active or hovered links */
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: red;
+    font-weight: bold;
+}
+   
+
+
+
+
+/*---------------------------------all-section-------*/
+
+h1 {
+    font-size: 60px;
+    line-height: 70px;
+    font-family: 'Averta-Bold';
+    font-weight: normal;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    text-align: center;
+    color: #ffffff;
+    padding: 300px 100px 100px;
+    overflow-x: hidden;
+   
+}
+
+
+
+
+.newsection{
+    min-height: 600px;
+    overflow-x: hidden;
+}
+
+.home_bg {
+    background: url("../../asset/images/gym-gym.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#site-info {
+    padding: 40px;
+}
+
+#site-about {
+    padding: 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: 'Averta-Bold';
+    font-weight: 700;
+}
+
+#site-schedule {
+    padding: 70px 50px 50px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-family: 'Averta-Bold';
+    font-weight: 700;
+}
+
+#form {
+    padding: 90px 50px 50px;
+    line-height: 30px;
+    margin-top: 30px;
+    font-family: 'Averta-Bold';
+    font-weight: 700;
+}
+
+.text-uppercase {
+    position: center;
+}
+
+
+#site-section {
+    padding-right: 10px;
+}
+
+#site-opening {
+    margin-top: 30px;
+}
+
+
+
+/*-------------------------------footer------*/
+
+
+.links {
+    padding-bottom: 18px;
+}
+
+.links li a i {
+    width: 33px;
+    height: 33px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #ffffff;
+    background: #a9a9a9;
+    transition: all 0.35 ease-in-out;
+    -moz-transition: all 0.35 ease-in-out;
+    -webkit-transition: all 0.35 ease-in-out;
+    -o-transition: all 0.35 ease-in-out
+}
+
+.links li a i:hover {
+    background: #ffff00;
+}
+
+#footer-text {
+    padding: 30px;
+
+}
